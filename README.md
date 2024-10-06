@@ -39,32 +39,18 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/social-media-sentiment-analysis.git
+    git clone https://github.com/your-username/social-media-sentiment-analysis.git](https://github.com/shivampri2002/social_media_sentiment_analysis.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd social-media-sentiment-analysis
+    cd social_media_sentiment_analysis
     ```
 
-3. Install the required Python packages:
+3. Run in Jupyter notebook:
     ```bash
-    pip install -r requirements.txt
+    jupyter notebook Social_Media_Sentiment_Analysis.ipynb
     ```
-
-## Usage
-1. Ensure you have collected the Twitter data you want to analyze, or use an available dataset.
-2. Run the Python script to perform sentiment analysis on your dataset:
-    ```bash
-    python sentiment_analysis.py
-    ```
-3. The script will output visualizations, model accuracy, and the sentiment predictions of tweets.
-
-### Example:
-```bash
-Input: "I love this new product!"
-Output: Positive
-```
 
 ## Model Performance
 The machine learning model was trained using a labeled dataset of tweets and was able to achieve a high degree of accuracy in classifying sentiment into positive, negative, or neutral categories. The model evaluation metrics include accuracy, precision, recall, and F1-score, which can be viewed after training.
